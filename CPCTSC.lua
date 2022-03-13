@@ -72,11 +72,11 @@ conveyerdelete.TextColor3 = Color3.fromRGB(0, 255, 255)
 conveyerdelete.TextSize = 14.000
 conveyerdelete.MouseButton1Down:Connect(function()
 	for count = 1, 28 do
-		game:GetService(workspace)Map.terrain2.Path.PathSpeedpad:destroy()
+		game.Workspace.Map.terrain2.Path.PathSpeedpad:destroy()
 	end
 
 	for count = 1, 16 do
-		game:GetService(workspace)Map.terrain2.Path.Patharow:destroy()
+		game.workspace.Map.terrain2.Path.Patharow:destroy()
 	end
 end)
 
@@ -159,3 +159,16 @@ closegui.Font = Enum.Font.Sarpanch
 closegui.Text = "Cheap cash computer | $89"
 closegui.TextColor3 = Color3.fromRGB(0, 255, 255)
 closegui.TextSize = 14.000
+closegui.MouseButton1Down:Connect(function()
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Plain Case", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("P03", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Bronze 200w", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Ram 1Gb", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Ram 1Gb", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("32Gb", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Gpu 150", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Basic fan", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Basic fan", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Basic fan", false, "1")
+	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("G-Air 6", false, "1")
+end)
