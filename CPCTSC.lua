@@ -185,10 +185,9 @@ TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = "Toggle GUI"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 255, 255)
 TextButton_3.TextSize = 14.000
-TextButton_3.MouseButton1Down:Connect(Function()
-	local frame = script. parent.parent.frame
+TextButton_3.MouseButton1Down.Connect(Function()
+	    local frame = script. parent.parent.frame
 
-	script.Parent.MouseButton1Click:Connect(function()
-		frame.visible = not frame.visible
-	end)
-end)
+    script.Parent.MouseButton1Click:Connect(function()
+        frame.visible = not frame.visible
+    end)
