@@ -10,6 +10,7 @@ local TextButton_2 = Instance.new("TextButton")
 local COMPONENTLIST = Instance.new("TextButton")
 local cheapgoldpc = Instance.new("TextButton")
 local closegui = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
 
 CPTHUB.Parent = game.CoreGui
 CPTHUB.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
@@ -173,3 +174,14 @@ closegui.MouseButton1Down:Connect(function()
 	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("Basic fan", false, "1")
 	game:GetService("ReplicatedStorage").Resources.Remotes.RemoteEvents.BuyItem:FireServer("G-Air 6", false, "1")
 end)
+
+TextButton_3.Parent = CPTHUB
+TextButton_3.BackgroundColor3 = Color3.fromRGB(28, 13, 90)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 255, 255)
+TextButton_3.BorderSizePixel = 3
+TextButton_3.Position = UDim2.new(0, 0, 0.435387671, 0)
+TextButton_3.Size = UDim2.new(0, 88, 0, 39)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Toggle GUI"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 255, 255)
+TextButton_3.TextSize = 14.000
