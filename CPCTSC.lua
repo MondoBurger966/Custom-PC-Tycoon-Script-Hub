@@ -31,7 +31,7 @@ TextButton.BorderSizePixel = 3
 TextButton.Position = UDim2.new(0.0786200911, 0, 0.196637064, 0)
 TextButton.Size = UDim2.new(0, 202, 0, 50)
 TextButton.Font = Enum.Font.Sarpanch
-TextButton.Text = "Cash Computer."
+TextButton.Text = "Cash Computer | $212,200"
 TextButton.TextColor3 = Color3.fromRGB(0, 255, 255)
 TextButton.TextSize = 14.000
 TextButton.MouseButton1Down:Connect(function()
@@ -88,7 +88,7 @@ goldpc.BorderSizePixel = 3
 goldpc.Position = UDim2.new(0.562006533, 0, 1.77434468, 0)
 goldpc.Size = UDim2.new(0, 202, 0, 50)
 goldpc.Font = Enum.Font.SourceSans
-goldpc.Text = "Gold Computer."
+goldpc.Text = "Gold Computer | 57.7M Gold"
 goldpc.TextColor3 = Color3.fromRGB(0, 255, 255)
 goldpc.TextSize = 14.000
 
@@ -156,6 +156,6 @@ closegui.BorderSizePixel = 3
 closegui.Position = UDim2.new(0.0795285553, 0, 0.392154813, 0)
 closegui.Size = UDim2.new(0, 202, 0, 50)
 closegui.Font = Enum.Font.Sarpanch
-closegui.Text = "Cheap cash computer"
+closegui.Text = "Cheap cash computer | $89"
 closegui.TextColor3 = Color3.fromRGB(0, 255, 255)
 closegui.TextSize = 14.000
