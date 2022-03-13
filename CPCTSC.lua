@@ -188,7 +188,7 @@ TextButton_3.TextSize = 14.000
 TextButton_3.MouseButton1Down:Connect(Function()
 	local frame = script. parent.parent.frame
 
-script.Parent.MouseButton1Click:Connect(function()
-	frame.visible = not frame.visible
-end)
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.visible = not frame.visible
+	end)
 end)
