@@ -23,6 +23,7 @@ Frame.BackgroundColor3 = Color3.fromRGB(44, 50, 144)
 Frame.BorderColor3 = Color3.fromRGB(53, 5, 5)
 Frame.Position = UDim2.new(0.0530007742, 0, 0.154601231, 0)
 Frame.Size = UDim2.new(0, 565, 0, 334)
+Frame.Draggable = true
 
 TextButton.Parent = Frame
 TextButton.BackgroundColor3 = Color3.fromRGB(28, 13, 90)
@@ -57,7 +58,6 @@ Frame_2.Parent = Frame
 Frame_2.BackgroundColor3 = Color3.fromRGB(90, 75, 255)
 Frame_2.Position = UDim2.new(0.00176834513, 0, 0.00373823196, 0)
 Frame_2.Size = UDim2.new(0, 564, 0, 36)
-Frame_2.Draggable = true
 
 conveyerdelete.Name = "conveyerdelete"
 conveyerdelete.Parent = Frame_2
@@ -122,6 +122,7 @@ TextButton_2.TextSize = 14.000
 TextButton_2.MouseButton1Down:Connect(function()
 	print("Scripted by MondoBurger89")
 	print("GUI Designed by ZNoob223")
+	print("This script is still in beta and will recive future updates.")
 end)
 
 COMPONENTLIST.Name = "COMPONENTLIST"
@@ -132,7 +133,7 @@ COMPONENTLIST.BorderSizePixel = 3
 COMPONENTLIST.Position = UDim2.new(0.0778761357, 0, 0.583978117, 0)
 COMPONENTLIST.Size = UDim2.new(0, 202, 0, 50)
 COMPONENTLIST.Font = Enum.Font.Sarpanch
-COMPONENTLIST.Text = "Component list"
+COMPONENTLIST.Text = "Component list | More components coming soon."
 COMPONENTLIST.TextColor3 = Color3.fromRGB(0, 255, 255)
 COMPONENTLIST.TextSize = 14.000
 
@@ -144,7 +145,7 @@ cheapgoldpc.BorderSizePixel = 3
 cheapgoldpc.Position = UDim2.new(0.564484298, 0, 0.389721572, 0)
 cheapgoldpc.Size = UDim2.new(0, 202, 0, 50)
 cheapgoldpc.Font = Enum.Font.Sarpanch
-cheapgoldpc.Text = "Cheap gold computer"
+cheapgoldpc.Text = "Cheap gold computer | COMING SOON"
 cheapgoldpc.TextColor3 = Color3.fromRGB(0, 255, 255)
 cheapgoldpc.TextSize = 14.000
 
