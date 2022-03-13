@@ -133,7 +133,7 @@ COMPONENTLIST.BorderSizePixel = 3
 COMPONENTLIST.Position = UDim2.new(0.0778761357, 0, 0.583978117, 0)
 COMPONENTLIST.Size = UDim2.new(0, 202, 0, 50)
 COMPONENTLIST.Font = Enum.Font.Sarpanch
-COMPONENTLIST.Text = "Component list | More components coming soon."
+COMPONENTLIST.Text = "Component list"
 COMPONENTLIST.TextColor3 = Color3.fromRGB(0, 255, 255)
 COMPONENTLIST.TextSize = 14.000
 
