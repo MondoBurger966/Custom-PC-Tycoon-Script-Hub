@@ -185,3 +185,16 @@ TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = "Toggle GUI"
 TextButton_3.TextColor3 = Color3.fromRGB(0, 255, 255)
 TextButton_3.TextSize = 14.000
+
+-- Scripts:
+
+local function QSPVQFF_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local frame = script. parent.parent.frame
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.visible = not frame.visible
+	end)
+end
+coroutine.wrap(QSPVQFF_fake_script)()
